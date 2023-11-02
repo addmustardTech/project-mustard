@@ -65,3 +65,15 @@ add_action( 'wp_enqueue_scripts', 'twentytwentytwo_styles' );
 
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
+
+// Get functions
+require get_template_directory() . '/inc/get.php';
+
+// Helper functions
+require get_template_directory() . '/inc/helper.php';
+
+// Scripts functions
+require get_template_directory() . '/inc/scripts.php';
+
+// ACF (fields)
+require get_template_directory() . '/inc/acf.php';
